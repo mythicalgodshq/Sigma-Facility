@@ -1,0 +1,73 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+	RectangleSets = 
+	[
+		{
+			name = ""
+			properties = null
+			rectangles = 
+			[
+				{
+					min = [ 0, 0 ]
+					max = [ 32768, 1024 ]
+					inset = [ 0, 0 ]
+					properties = 
+					{
+						allowTiling = true
+						allowRotation = true
+					}
+				},
+				{
+					min = [ 0, 1024 ]
+					max = [ 32768, 2048 ]
+					inset = [ 0, 0 ]
+					properties = 
+					{
+						allowTiling = true
+						allowRotation = true
+					}
+				},
+				{
+					min = [ 0, 2048 ]
+					max = [ 32768, 4096 ]
+					inset = [ 0, 0 ]
+					properties = 
+					{
+						allowTiling = true
+						allowRotation = true
+					}
+				},
+				{
+					min = [ 0, 4096 ]
+					max = [ 32768, 8192 ]
+					inset = [ 0, 0 ]
+					properties = 
+					{
+						allowTiling = true
+						allowRotation = true
+					}
+				},
+				{
+					min = [ 0, 8192 ]
+					max = [ 32768, 16384 ]
+					inset = [ 0, 0 ]
+					properties = 
+					{
+						allowTiling = true
+						allowRotation = true
+					}
+				},
+				{
+					min = [ 0, 16384 ]
+					max = [ 32768, 32768 ]
+					inset = [ 0, 0 ]
+					properties = 
+					{
+						allowTiling = true
+						allowRotation = true
+					}
+				},
+			]
+		},
+	]
+}

@@ -1,0 +1,92 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+	_class = "CPostProcessData"
+	m_layers = 
+	[
+		{
+			_class = "CColorTintColorCorrectionLayer"
+			m_name = "Color Tint 1"
+			m_nOpacityPercent = 100
+			m_bVisible = true
+			m_pLayerMask = null
+			m_nTintColorR = 184
+			m_nTintColorG = 132
+			m_nTintColorB = 69
+			m_nStrength = 20
+			m_bPreserveLuminosity = true
+		},
+		{
+			_class = "CVignetteLayer"
+			m_name = "Vignette 1"
+			m_nOpacityPercent = 100
+			m_bVisible = true
+			m_pLayerMask = null
+			m_params = 
+			{
+				m_flVignetteStrength = -0.3076
+				m_vCenter = [ 0.0, 0.0 ]
+				m_flRadius = 0.7563
+				m_flRoundness = 0.2436
+				m_flFeather = 0.4017
+				m_vColorTint = [ 0.165132, 0.0, 0.0 ]
+			}
+		},
+		{
+			_class = "CBloomLayer"
+			m_name = "Bloom 1"
+			m_nOpacityPercent = 100
+			m_bVisible = true
+			m_pLayerMask = null
+			m_params = 
+			{
+				m_blendMode = "BLOOM_BLEND_SCREEN"
+				m_flBloomStrength = 1.998
+				m_flScreenBloomStrength = 1.0
+				m_flBlurBloomStrength = 1.0
+				m_flBloomThreshold = 0.07
+				m_flBloomThresholdWidth = 0.1
+				m_flSkyboxBloomStrength = 1.0
+				m_flBloomStartValue = 1.0
+				m_flBlurWeight = 
+				[
+					0.0, 0.4036, 0.4036, 0.4036,
+					0.4036,
+				]
+				m_vBlurTint = 
+				[
+					[ 1.0, 1.0, 1.0 ],
+					[ 1.0, 1.0, 1.0 ],
+					[ 1.0, 1.0, 1.0 ],
+					[ 1.0, 1.0, 1.0 ],
+					[ 1.0, 1.0, 1.0 ],
+				]
+			}
+		},
+		{
+			_class = "CToneMappingLayer"
+			m_name = "Tone Mapping 1"
+			m_nOpacityPercent = 100
+			m_bVisible = true
+			m_pLayerMask = null
+			m_params = 
+			{
+				m_flExposureBias = 0.0
+				m_flShoulderStrength = 0.15
+				m_flLinearStrength = 0.5
+				m_flLinearAngle = 0.1
+				m_flToeStrength = 0.2
+				m_flToeNum = 0.02
+				m_flToeDenom = 0.3
+				m_flWhitePoint = 4.0
+				m_flLuminanceSource = 0.0
+				m_flExposureBiasShadows = 0.0
+				m_flExposureBiasHighlights = 0.0
+				m_flMinShadowLum = 0.0
+				m_flMaxShadowLum = 0.5
+				m_flMinHighlightLum = 2.0
+				m_flMaxHighlightLum = 8.0
+			}
+			m_bUseLocalTonemapOperator = true
+		},
+	]
+}
